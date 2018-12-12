@@ -1,6 +1,6 @@
 # Node 核心问题
-* [Event循环引用源码解析](Node/event.md)
-* [事件驱动](Node/README.md)
+* [Event循环引用源码解析](node/event.md)
+* [通过一道 Node 面试题理解 Event Loop](node/eventloop.md)
 * [阻塞IO](Node/README.md)
 * [Stream](Node/README.md)
 * [Promise](Node/README.md)
