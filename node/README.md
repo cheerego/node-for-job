@@ -1,6 +1,6 @@
 # Node 核心问题
-* [Event循环引用源码解析](node/event.md)
-* [通过一道 Node 面试题理解 Event Loop](node/eventloop.md)
+* [Event循环引用源码解析](event.md)
+* [通过一道 Node 面试题理解 Event Loop](eventloop.md)
 
 
 
