@@ -1,7 +1,7 @@
 # Node 核心问题
 * [Event 循环引用源码解析](event.md)
 * [通过一道 Node 面试题理解 Event Loop](eventloop.md)
-* [Node 模块化机制](module.md)
+* [Node 模块化机制 require 源码解析](module.md)
 
 
 
