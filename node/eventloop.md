@@ -1,4 +1,4 @@
-## 通过一道面试题理解 Node 的 Event Loop
+## 理解 Event Loop
 
 参考文档:
 
