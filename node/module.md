@@ -2,7 +2,7 @@
 
 * [Cycles](#cycles)
 * [Cache](#cache)
-    * 千万不要试图 delete require.cache['id'] 来实现热重载 《[一行 delete require.cache 引发的内存泄漏血案](https://zhuanlan.zhihu.com/p/34702356)》
+    * 不要妄想 `delete require.cache['id']` 来实现热重载 《[一行 delete require.cache 引发的内存泄漏血案](https://zhuanlan.zhihu.com/p/34702356)》
 * [require](#require-源码解析)
 
 
