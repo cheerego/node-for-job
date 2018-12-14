@@ -3,7 +3,6 @@
 * [Cycles](#cycles)
 * [Cache](#cache)
 * [require](#require-源码解析)
-* module.exports & exports
 
 
 ### Cycles
