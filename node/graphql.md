@@ -1,5 +1,13 @@
 ## GraphQL
 
+### 三个 Demo 学习 GraphQL
+* Query
+* Variable
+* Alias
+* Fragment
+* ErrorFormat
+* Mutation
+
 ### Demo1
 
 ```javascript
