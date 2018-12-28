@@ -361,7 +361,6 @@ fragment CourseFields on Course {
 var express = require('express');
 var express_graphql = require('express-graphql');
 var {buildSchema} = require('graphql');
-const {find, filter} = require('lodash');
 // GraphQL schema
 var schema = buildSchema(`
    type Author {
