@@ -10,7 +10,7 @@
 
 [不要混淆nodejs和浏览器中的event loop](https://cnodejs.org/topic/5a9108d78d6e16e56bb80882)
 
-
+[翻译了一个关于事件循环的系列博文，请大家多多指教](https://cnodejs.org/topic/5c6ab1b6ed5543510be8cbe0#5c6d227ee1a81129a7ad8cd6)
 #### 牛刀小试
 ```javascript
 setTimeout(function() {
