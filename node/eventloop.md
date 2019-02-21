@@ -14,20 +14,31 @@
 #### 牛刀小试
 ```javascript
 setTimeout(function() {
-  console.log(1)
+    console.log(1)
 }, 0);
 new Promise(function executor(resolve) {
-  console.log(2);
-  for( var i=0 ; i<10000 ; i++ ) {
-    i == 9999 && resolve();
-  }
-  console.log(3);
+    console.log(2);
+    for( var i=0 ; i<10000 ; i++ ) {
+        i == 9999 && resolve();
+    }
+    console.log(3);
 }).then(function() {
-  console.log(4);
+    console.log(4);
 });
 console.log(5);
+
+process.nextTick(() => {
+    console.log(6);
+});
+
 ```
-`2 3 5 4 1`
+`2 3 5 6 4 1`
+
+Promise的构造函数里面的方法是同步执行的
+所以先输出 2 3 5
+然后 Promise 的 then 属于异步执行的，属于 MicroTask 在 nextTick执行完后执行
+所以再输出 6 4 
+然后
 
 
 #### 什么是事件循环?
