@@ -2,4 +2,4 @@
 
 
 
-https://cheerego.gitbooks.io/node-interview/content/
+https://github.com/cheerego/node-story
